@@ -8,8 +8,6 @@ Take the fun of guess game to the next level with Time To Guess app - Powered by
 
 Time To Guess downloads a random image from the Internet, uses AI object detection to determine different objects in the image, and selects a random object.
 
-You can also select images from your phone or take a new photo and the app will select a random object! By the way, don't worry - your images will not be stored or sent to a server.
-
 Your part is to guess which object in the image has the app selected! Feel free to get some clues and then take a guess 😊
 
 When you click on a clue in the Clues scene, the color of clue changes: Green is Yes and Gray is No.
@@ -17,6 +15,10 @@ When you click on a clue in the Clues scene, the color of clue changes: Green is
 Every clue used and an incorrect guess takes away some points. Also, the longer time you take in making the correct guess, the more points you loose.
 
 Guess the selected object in minimum time and with minimum clues and incorrect guesses!
+
+If WiFi and mobile broadband isn’t available, the app uses one of the images included in the app package.
+
+You can also select images from your phone or take a new photo and the app will select a random object! By the way, don't worry - your images will not be stored or sent to a server.
 
 Remember, AI is still learning and sometimes makes mistakes (e.g. a cup for a glass)… For those interested, the model used is YOLOv3 (Int8). Regular model (rather than tiny) is used for higher accuracy.
 
